@@ -1,11 +1,19 @@
 .nav
+    height: 93px    
     &-container
+        height: 100%
         display: grid
         grid-template-columns: auto 1fr auto
         align-items: center
         padding-top: 10px
     &__menu
+        height: 100%
+        display: grid
+        place-items: center
+        &-block
+            height: 100%
         &-list
+            height: 100%
             list-style-type: none
             display: grid
             justify-self: center
@@ -15,6 +23,7 @@
             margin: 0 auto
         &-link
             display: block
+            height: 100%
             width: 100% 
             text-decoration: none
             font-size: 1.3rem
@@ -29,6 +38,7 @@
             &:hover
                 color: var(--light-blue)
         &-item
+            height: 100%
             position: relative
         
             
