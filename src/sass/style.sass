@@ -1,18 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap')
 @import libs/_reset
 
+\:root
+    --primary-color: #cecac3
+    --light-blue: #ADD8E6
+    --grey-color: #999183
+    --bg-color: #181a1b
 
 body
     font-family: Roboto, sans-serif
-    color: #cecac3
+    color: var(--primary-color)
     background-color: #181a1b
 .container
     max-width: 1140px
     margin: 0 auto
-
 
 @import blocks/header/_header
 @import blocks/header/nav/_nav
 @import blocks/btn/_btn
 @import blocks/promo/_promo
 @import blocks/hamburger/_hamburger
+@import blocks/submenu/_submenu
+@import blocks/sidebar/_sidebar
+@import _media.sass

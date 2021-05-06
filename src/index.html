@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+
     <link rel="stylesheet" href="css/style.min.css">
     <title>Stripe Submenus</title>
 </head>
@@ -23,18 +27,24 @@
                     <div class="nav__menu">
                         <div class="nav__menu-block">
                             <ul class="nav__menu-list">
-                                <li class="nav__menu-item"><a class="nav__menu-link" href="#">products</a></li>
-                                <li class="nav__menu-item"><a class="nav__menu-link" href="#">developers</a></li>
-                                <li class="nav__menu-item"><a class="nav__menu-link" href="#">company</a></li>
+                                <li class="nav__menu-item">
+                                    <button class="nav__menu-link" href="#">products</button>
+                                </li>
+                                <li class="nav__menu-item">
+                                    <button class="nav__menu-link" href="#">developers</button>
+                                </li>
+                                <li class="nav__menu-item">
+                                    <button class="nav__menu-link" href="#">company</button></li>
                             </ul>
                         </div>
                     </div>
                     <button class="btn btn_signIn">Sign in</button>
-                    <button class="hamburger">1</button>
+                    <button class="hamburger"><i class="fas fa-2x fa-bars"></i></button>
                 </div>
             </nav>
         </div>
     </header>
+    <!-- promo -->
     <section class="promo">
         <div class="container">
             <h1 class="promo__title">
@@ -43,14 +53,67 @@
             </h1>
             <div class="promo__subtitle">Millions of companies of all sizes—from startups to Fortune 500s—use Stripe’s
                 software and APIs to accept payments, send payouts, and manage their businesses online.
-    
+
             </div>
             <button class="btn btn_start">start now</button>
             <div class="promo__img-container">
-                <img src="https://res.cloudinary.com/dljezd6qv/image/upload/v1620229309/stripe-submenu-project/phone.svg" alt="phone" class="promo__img">
+                <img src="https://res.cloudinary.com/dljezd6qv/image/upload/v1620229309/stripe-submenu-project/phone.svg"
+                    alt="phone" class="promo__img">
             </div>
         </div>
     </section>
+
+    <!-- Submenu -->
+    <div class="submenu">
+        <section class="submenu__content">
+            <h4 class="submenu__title">products</h4>
+            <div class="submenu__links">
+                <a href="#" class="submenu__link"><i class="fas fa-credit-card"></i> Payment</a>
+                <a href="#" class="submenu__link"><i class="fas fa-credit-card"></i>Terminal</a>
+                <a href="#" class="submenu__link"><i class="fas fa-credit-card"></i>Connect</a>
+            </div>
+        </section>
+    </div>
+    <!-- Sidebar -->
+    <div class="sidebar-wrapper">
+        <aside class="sidebar">
+            <button class="sidebar__close">
+                <i class="fas fa-3x fa-times"></i>
+            </button>
+            <div class="sidebar__items">
+                <div class="sidebar__item">
+                    <h4 class="sidebar__title">
+                        Products
+                    </h4>
+                    <div class="sidebar__links">
+                        <a href="#" class="sidebar__link"><i class="fas fa-credit-card"></i> Payment</a>
+                        <a href="#" class="sidebar__link"><i class="fas fa-credit-card"></i>Terminal</a>
+                        <a href="#" class="sidebar__link"><i class="fas fa-credit-card"></i>Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar__item">
+                    <h4 class="sidebar__title">
+                        Products
+                    </h4>
+                    <div class="sidebar__links">
+                        <a href="#" class="sidebar__link"><i class="fas fa-credit-card"></i> Payment</a>
+                        <a href="#" class="sidebar__link"><i class="fas fa-credit-card"></i>Terminal</a>
+                        <a href="#" class="sidebar__link"><i class="fas fa-credit-card"></i>Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar__item">
+                    <h4 class="sidebar__title">
+                        Products
+                    </h4>
+                    <div class="sidebar__links">
+                        <a href="#" class="sidebar__link"><i class="fas fa-credit-card"></i> Payment</a>
+                        <a href="#" class="sidebar__link"><i class="fas fa-credit-card"></i>Terminal</a>
+                        <a href="#" class="sidebar__link"><i class="fas fa-credit-card"></i>Connect</a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
 </body>
 
 </html>

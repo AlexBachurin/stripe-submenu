@@ -1,18 +1,62 @@
-@media screen and ( max-width: 1200 )
+@media screen and ( max-width: 1200px )
     .container
         max-width: 960px
+    .nav
+        &__menu
+            &-list
+                width: 50vw
 
 @media screen and ( max-width: 991px )
     .container
         max-width: 720px
+    .promo
+        // &__title
+        //     z-index: 2
+        // &__subtitle
+        //     z-index: 2
+        &__img
+            &-container
+                display: none
 
 @media screen and ( max-width: 767px )
     .container
         max-width: 540px
+    .hamburger
+        display: block
+    .btn
+        &_signIn
+            display: none
+    .promo
+        &__title
+            font-size: 4rem
+            line-height: 5rem
+            max-width: 500px
+        &__subtitle
+            max-width: 500px
+        &__img
+            &-container
+                display: none
+    .nav
+        &-container
+            display: flex
+            justify-content: space-between
+        &__menu
+            display: none
 @media screen and ( max-width: 575px )
     .container
         max-width: 100%
     body
         padding: 0 20px
-    
-    
+    .promo
+        &__title
+            font-size: 3rem
+            line-height: 4rem
+            max-width: 100%
+            text-align: center
+        &__subtitle
+            text-align: center
+            max-width: 100%
+    .btn
+        &_start
+            display: block
+            margin: 20px auto 0 auto
