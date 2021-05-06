@@ -81,7 +81,6 @@ menuLinks.forEach(link => {
     link.addEventListener('mouseover', (e) => {
         //get name of hovered element
         const target = e.currentTarget;
-        console.log(target)
         const name = target.textContent;
         //get coordinates of target, sum them, and divide by 2 to get center of the element
         const coords = target.getBoundingClientRect().left + target.getBoundingClientRect().right;
